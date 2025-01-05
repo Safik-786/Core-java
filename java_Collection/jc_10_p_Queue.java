@@ -1,10 +1,13 @@
+import java.util.Comparator;
 import java.util.PriorityQueue;
 
 public class jc_10_p_Queue
 {
     public static void main(String[] args)
     {
-        PriorityQueue<Integer> q= new PriorityQueue<>();
+//        PriorityQueue<Integer> q= new PriorityQueue<>();     // By default priority will be ascending order
+//        How to make it descending
+        PriorityQueue<Integer> q= new PriorityQueue<>(Comparator.reverseOrder());
         q.add(5);
         q.add(3);
         q.add(1);
@@ -13,6 +16,7 @@ public class jc_10_p_Queue
         q.add(4);
 
         System.out.println("p-queue= "+q);
+
         System.out.println("here peek element= "+q.peek());
         q.remove();
         q.remove();

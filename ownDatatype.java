@@ -1,9 +1,9 @@
 
 import  java.util.Scanner;
-class Student
+class Student5
 {
     String name,fName ; int age;
-    Student(String name,int age,String fName)
+    Student5(String name,int age,String fName)
     {
         this.name = name;
         this.age = age;
@@ -19,7 +19,7 @@ public class ownDatatype
         Scanner sc =  new Scanner( System.in);
         System.out.println("enter no. of student:");
         int num = sc.nextInt();
-        Student [] stud  = new Student[num];
+        Student5 [] stud  = new Student5[num];
         for (int i=0;i<num ;i++)
         {
             System.out.println("information for student"+(i+1));
@@ -31,7 +31,7 @@ public class ownDatatype
             System.out.println("enter your father name:");
             String fName= sc.nextLine();
 
-            Student joker = new Student(name,age,fName);
+            Student5 joker = new Student5(name,age,fName);
             stud[i]=joker;
         }
 

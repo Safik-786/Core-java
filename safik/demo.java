@@ -1,4 +1,4 @@
-package rahul;
+package safik;
 import java.util.Scanner;
 public class demo
 {
@@ -13,7 +13,6 @@ public class demo
         c=a+b;
         System.out.println(a+"+" +b+"="+c);
     }
-
     public static void main(String[] args) {
         char[] c= {'g','f','g','f',' ','f','g','f'};
         String stri= "ejjhf";
@@ -22,7 +21,6 @@ public class demo
         System.out.println(str);
         str+="safik";
         System.out.println(str);
-
     }
 }
 

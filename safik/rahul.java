@@ -1,6 +1,5 @@
-import java.security.spec.RSAOtherPrimeInfo;
-
- class rahul
+package safik;
+class rahul
 {
     int a=20;
     static int b=80;

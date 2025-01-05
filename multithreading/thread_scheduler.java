@@ -1,3 +1,5 @@
+package multithreading;
+
 class thread_scheduler extends Thread
 {
     public void run()

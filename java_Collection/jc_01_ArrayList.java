@@ -14,10 +14,9 @@ public class jc_01_ArrayList
 //        System.out.println(al);
         Iterator it =al.iterator();             //  ITERATOR
         while (it.hasNext()){
-            System.out.println(it.next());
+            System.out.print(it.next() +" ");
         }
         System.out.println();
-
         LinkedList name = new LinkedList();
         name.add("rahul");
         name.add(6546);
@@ -25,7 +24,7 @@ public class jc_01_ArrayList
 //        System.out.println(name);
         ListIterator lit = name.listIterator();     //  ListIterator
         while (lit.hasNext()){
-            System.out.println(lit.next());
+            System.out.print(lit.next() +" ");
         }
 
     }

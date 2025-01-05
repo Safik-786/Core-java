@@ -21,7 +21,7 @@ public class jc_11_HashMap
         System.out.println(map.containsKey("USA"));
         System.out.println(map.containsKey("indonesia"));
 
-        System.out.println(map.get("USA")+"cr");
+        System.out.println(map.get("USA")+"cr. USA");
         System.out.println(map.get("India")+"cr");
 
 //        traditional way to retrive data from hashmap through for loop

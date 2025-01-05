@@ -14,6 +14,7 @@ public class jc_05_Swap
         Collections.swap(alist,1,3);
         System.out.println(alist);
 
+
 //        to determine index of the element
         System.out.println(alist.indexOf("i"));
     }

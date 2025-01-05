@@ -1,26 +1,28 @@
-class student
+class Student
 {
     int roll;
     String name ;
     static String college ="GITAM";
-    student(int r,String n)
+    Student(int r,String n)
     {
         roll=r;
         name=n;
     }
-    void display()
-    {
+    void display() {
         System.out.println(roll+" "+name+" "+college);
     }
 }
+
 public class static_var
 {
     public static void main(String[] args)
     {
-        student r = new student(55, "safik");
+        Student r = new Student(55, "safik");
         r.display();
-        student r2 = new student(56, "rahul");
+        Student r2 = new Student(56, "rahul");
         r2.display();
+
+        System.out.println(Student.college);
     }
 }
 

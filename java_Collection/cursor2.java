@@ -2,8 +2,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.ListIterator;
 
-public class cursor2
-{
+public class cursor2 {
     public static void main(String[] args) {
         List a = new LinkedList();
         a.add("gudu");
@@ -11,7 +10,7 @@ public class cursor2
         a.add("gudi");
         a.add(67);
         ListIterator lit = a.listIterator();     //  ListIterator
-        while (lit.hasNext()){
+        while (lit.hasNext()) {
             System.out.println(lit.next());
         }
         System.out.println("=====================================");
@@ -27,7 +26,7 @@ public class cursor2
         lit.set("786");            // it used after commentind add() mrthod and it will replace the "last" element with 786
 //        lit.remove();             // it remove last element of this list
 
-        System.out.println(a );
+        System.out.println(a);
 
     }
 }

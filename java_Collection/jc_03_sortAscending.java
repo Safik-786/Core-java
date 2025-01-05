@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.Collections;
-
 public class jc_03_sortAscending
 {
     public static void main(String[] args)

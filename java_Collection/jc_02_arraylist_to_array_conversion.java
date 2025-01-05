@@ -20,6 +20,16 @@ public class jc_02_arraylist_to_array_conversion
             System.out.print(str+"  ");
         }
         System.out.println("\narray length is "+ arr.length);
+        ArrayList<Integer> al= new ArrayList<Integer>();
+        al.add(22);
+        al.add(23);
+        al.add(24);
+        al.add(26);
+        al.add(27);
+        Integer[] array = al.toArray(new Integer[al.size()]);
+        System.out.println(Arrays.toString(array));
+
+
     }
 
 }
